@@ -4,11 +4,11 @@
     <list default="true" id="09841fb5-ff91-49c2-a71f-a57ab068c8be" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edu/bupt/zyq/globalVal.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edu/bupt/zyq/nClient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edu/bupt/zyq/nThread.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CapCatcher.iml" afterPath="$PROJECT_DIR$/.idea/CapCatcher.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py" afterPath="$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\workspace\CapCatcher\edu\bupt\zyq\evtProcess2.py" afterPath="$PROJECT_DIR$/edu/bupt/zyq/nThread.py" />
     </list>
     <ignored path="CapCatcher.iws" />
     <ignored path=".idea/workspace.xml" />
