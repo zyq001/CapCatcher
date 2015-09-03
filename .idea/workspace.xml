@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09841fb5-ff91-49c2-a71f-a57ab068c8be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edu/bupt/zyq/TextEnterQ.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edu/bupt/zyq/nThreadQ.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py" afterPath="$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edu/bupt/zyq/nThread.py" afterPath="$PROJECT_DIR$/edu/bupt/zyq/nThread.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\workspace\CapCatcher\edu\bupt\zyq\nThread.py" afterPath="$PROJECT_DIR$/edu/bupt/zyq/TextEnter.py" />
-    </list>
+    <list default="true" id="09841fb5-ff91-49c2-a71f-a57ab068c8be" name="Default" comment="" />
     <ignored path="CapCatcher.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -32,8 +25,8 @@
       <file leaf-file-name="evtProcess2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20428336">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.3937397">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="e#40#49#0" expanded="true" />
               </folding>
@@ -568,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/edu/bupt/zyq/evtProcess2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20428336">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3937397">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="e#40#49#0" expanded="true" />
           </folding>
