@@ -11,16 +11,28 @@ import sys,random
 import sitecustomize
 import globalVal
 
-class nThread(threading.Thread):
-    def __init__(self, Useragent,picName):
+class nThreadQ(threading.Thread):
+    def __init__(self, window, Useragent,picName):
         self.flag = True
         threading.Thread.__init__(self)
         self.nClient = nClient(Useragent,picName)
+        self.pic = picName
         self.ready = self.nClient.ready
+        self.window = window
+        self.timeToQuit = threading.Event()
+        self.timeToQuit.clear()
+        self.timeToQuit.clear()
     def run(self):
         while self.flag:
             self.nClient.get()
-            time.sleep(0.1)
+            if self.nClient.ready == True:
+                wx.CallAfter(self.window.addToSque, self.pic)
+                print('call le')
+                while self.nClient.ready:
+                    time.sleep(0.1)
+                    continue
+            #time.sleep(0.1)
     def Stop(self):
+#self.timeToQuit.set()
         self.flag = False
         print(u'==================线程退出=============')
